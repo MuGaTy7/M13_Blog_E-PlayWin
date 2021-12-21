@@ -77,7 +77,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: url(../img/joshua-koblin-eqW1MPinEV4-unsplash.jpg);
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -88,36 +88,80 @@ header {
     justify-content: center;
 }
 
-#card-1 {
-    background-image: url(../img/chris-nguyen-aTX_bRaOZnA-unsplash.jpg);
-    height: 65vh;
-    background-size: cover;
-    background-position: center;
-}
-
 #card-2 {
-    background-image: url(../img/a.jpg);
+    background-image: url(../img/card-2.jpg);
     height: 65vh;
     background-size: cover;
     background-position: center;
 }
 
 #card-3 {
-    background-image: url(../img/martin-katler-e3gVocvZ-g0-unsplash.jpg);
+    background-image: url(../img/card-3.jpg);
     height: 65vh;
     background-size: cover;
     background-position: center;
 }
 
 #card-4 {
-    background-image: url(../img/viktor-theo-g0i8e-sh3hk-unsplash.jpg);
+    background-image: url(../img/card-4.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-5 {
+    background-image: url(../img/card-5.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url(../img/card-6.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url(../img/card-7.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-8 {
+    background-image: url(../img/card-8.jpg);
     height: 65vh;
     background-size: cover;
     background-position: center;
 }
 
 .padding-s {
-    padding: 0.7%;
+    padding: 1%;
+}
+
+footer {
+    background-color: rgb(187, 187, 187);
+    margin: 0;
+}
+
+article {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#prefooter {
+    background-color: rgb(37, 36, 41);
+    color: white;
+}
+
+#prefooter p {
+    font-size: 0.75rem;
 }
 
 @media only screen and (max-width: 600px) {
