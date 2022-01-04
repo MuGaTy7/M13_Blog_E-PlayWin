@@ -18,6 +18,10 @@ h3 {
     font-size: 2rem;
 }
 
+h4 {
+    font-size: 1.5rem;
+}
+
 
 /* clases predefinidas */
 
@@ -28,6 +32,7 @@ h3 {
 
 body {
     margin: 0;
+    color: white;
 }
 
 
@@ -141,27 +146,23 @@ header {
     padding: 1%;
 }
 
-footer {
-    background-color: rgb(187, 187, 187);
-    margin: 0;
+article {
+    background-color: rgb(47, 40, 73);
 }
 
-article {
-    background-color: grey;
+.header2 {
+    background-color: purple;
+    text-align: center;
 }
 
 a {
+    color: white;
     text-decoration: none;
-    color: black;
 }
 
 #prefooter {
-    background-color: rgb(37, 36, 41);
+    background-color: rgb(47, 40, 73);
     color: white;
-}
-
-#prefooter p {
-    font-size: 0.75rem;
 }
 
 @media only screen and (max-width: 600px) {
